@@ -170,6 +170,9 @@ header i img {
     box-shadow: -26vmin 0 3.8118961407469634vmin currentColor;
 }
 
+[data-text]::after {
+    content: attr(data-text);
+  }
 
 .intro {
     margin-bottom: 20px;
